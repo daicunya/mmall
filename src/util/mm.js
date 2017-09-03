@@ -34,7 +34,7 @@ var _mm = {
     })
   },
   //获取服务器地址
-  getServer: function (path) {
+  getServerUrl: function (path) {
     return conf.serverHost + path;
   },
   //获取url参数
@@ -74,7 +74,7 @@ var _mm = {
   },
   //统一登录处理
   doLogin : function () {
-    window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+    window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
   goHome : function () {
     window.location.href = './index.html';

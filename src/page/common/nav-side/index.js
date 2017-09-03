@@ -13,9 +13,9 @@ var navSide = {
     name : '',
     navList : [
       {name: 'user-center', desc: '个人中心', href: './user-center.html'},
-      {name: 'order-list', desc: '我的订单', href: './user-center.html'},
-      {name: 'pass-update', desc: '修改密码', href: './user-center.html'},
-      {name: 'about', desc: '关于mmall', href: './user-center.html'}
+      {name: 'order-list', desc: '我的订单', href: './order-list.html'},
+      {name: 'pass-update', desc: '修改密码', href: './user-pass-update.html'},
+      {name: 'about', desc: '关于mmall', href: './about.html'}
     ]
   },
   init : function (option) {
